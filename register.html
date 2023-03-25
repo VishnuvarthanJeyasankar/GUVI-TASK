@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Page</title>
+    
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./register.css">
+	<!-- Custom CSS -->
+	
+</head>
+<body>
+	<div class="container">
+		
+			
+			
+				<form action="#" method="post">
+					<h2 class="text-center mb-4">REGISTER</h2>
+					<div class="form-group">
+						<label class="offset-1" for="user id">User Id</label>
+						<input type="user id" class="form-control offset-1" id="user id" style="width: 80%;" name="user id" required>
+					</div>
+					<div class="form-group">
+						<label class="offset-1"for="email">Email address</label>
+						<input type="email" class="form-control offset-1" id="email" style="width: 80%;"  name="email" required>
+					</div>
+					<div class="form-group">
+						<label class="offset-1"for="password">Password</label>
+						<input type="password" class="form-control offset-1" id="password" style="width: 80%;"  name="password" required>
+					</div>
+					<div class="form-group"> 
+						<label class="offset-1"for=" password">Confirm Password</label>
+						<input type="password" class="form-control offset-1" id="confirm-Password"style="width: 80%;"  name="confirm password" required>
+					</div>
+					<p class="mb-0 text-center">Alredy have an Account?<a href="#" class="text-decoration-none">Login here!</a></p>
+					<div class="text-center">
+						<input type="submit" class="btn btn-primary" onclick="validatePassword()" value="REGISTER"><a href="./login.html" class="login"></a>
+					</div>
+					
+				</form>
+				
+			</div>
+		
+	</div>
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="register.js"></script>
+</body>
+</html>
